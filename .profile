@@ -6,3 +6,6 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+# Aliases
+alias tfserver='clear; ssh vadusumilli@192.168.1.123'
+
