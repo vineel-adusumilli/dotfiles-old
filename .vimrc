@@ -101,5 +101,7 @@ cmap Q q!
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set number
 map <Help> <Esc>
 map! <Help> <Esc>
+
