@@ -3,7 +3,7 @@ source /usr/local/etc/bash_completion.d/tmux
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
 # set amazon aws key as environment variable
-source .aws
+source ~/.aws
 
 # enable terminal colors
 export CLICOLOR=1
