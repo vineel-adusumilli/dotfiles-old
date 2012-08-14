@@ -8,13 +8,13 @@ These are my dotfiles.
     <td>.profile</td><td>OS X equivalent of .bashrc</td>
   </tr>
   <tr>
-    <td>.vimrc</td><td>Configuration for [vim](http://www.vim.org/)</td>
+    <td>.vimrc</td><td>Configuration for <a href="http://www.vim.org/">vim</a></td>
   </tr>
   <tr>
     <td>.vim</td><td>Folder for vim plugins</td>
   </tr>
   <tr>
-    <td>.tmux.conf</td><td>Configuration for [tmux](http://tmux.sourceforge.net/)</td>
+    <td>.tmux.conf</td><td>Configuration for <a href="http://tmux.sourceforge.net/">tmux</a></td>
   </tr>
 </table>
 
