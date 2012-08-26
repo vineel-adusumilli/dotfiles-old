@@ -10,5 +10,8 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # Aliases
-alias tfserver='clear; ssh vadusumilli@192.168.1.123'
+alias ccat="pygmentize"
+alias less="less -R"
+alias tw="open -a TextWrangler"
+alias tfserver="clear; ssh vadusumilli@192.168.1.123"
 
