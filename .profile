@@ -9,9 +9,15 @@ source ~/.aws
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+export PS1="\e[0;36m\h:\W \u$ \e[m"
+
 # Aliases
+alias cs="coffee"
 alias ccat="pygmentize"
 alias less="less -R"
 alias tw="open -a TextWrangler"
-alias tfserver="clear; ssh vadusumilli@192.168.1.123"
+alias te="open -a TextEdit"
+alias tfserver="clear; ssh vadusumilli@server.tinyfactory.co"
+alias ip="python ~/code/p/ip/ip.py"
+alias reload="source ~/.profile"
 

@@ -53,3 +53,5 @@ map! <Help> <Esc>
 set t_Co=256
 colorscheme molokai
 syntax on
+
+call pathogen#infect()
