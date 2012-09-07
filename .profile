@@ -9,8 +9,6 @@ source ~/.aws
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export PS1="\e[0;36m\h:\W \u$ \e[m"
-
 # Aliases
 alias cs="coffee"
 alias ccat="pygmentize"

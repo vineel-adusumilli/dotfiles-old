@@ -17,9 +17,11 @@ set number
 set hidden
 set history=1000
 
-set ruler
+set laststatus=2
+set statusline=%<%f\ %h%m%r\ %y%=%{v:register}\ %-14.(%l,%c%V%)\ %P
 set showcmd
 set incsearch
+set hlsearch
 
 if has('mouse')
   set mouse=a
@@ -53,5 +55,6 @@ map! <Help> <Esc>
 set t_Co=256
 colorscheme molokai
 syntax on
+let g:Powerline_symbols = 'fancy'
 
 call pathogen#infect()
