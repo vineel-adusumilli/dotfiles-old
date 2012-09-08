@@ -15,7 +15,7 @@ alias ccat="pygmentize"
 alias less="less -R"
 alias tw="open -a TextWrangler"
 alias te="open -a TextEdit"
-alias tfserver="clear; ssh vadusumilli@server.tinyfactory.co"
+alias tfserver="clear; ssh vadusumilli@192.168.1.123"
 alias ip="python ~/code/p/ip/ip.py"
 alias reload="source ~/.profile"
 
