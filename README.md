@@ -18,6 +18,8 @@ These are my dotfiles.
   </tr>
 </table>
 
+Use `git clone --recursive` when pulling down this repo to include the submodule vim plugins.
+
 Not included is '.aws' (which you'll see sourced in .profile). That's because .aws contains my [Amazon Web Services](http://aws.amazon.com/) secret key. It looks like this:
 
 ```bash
