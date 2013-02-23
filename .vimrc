@@ -7,8 +7,6 @@ else
   set backup
 endif
 
-cmap Q q!
-
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -51,6 +49,7 @@ endif
 
 map <Help> <Esc>
 map! <Help> <Esc>
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 set t_Co=256
 colorscheme molokai
