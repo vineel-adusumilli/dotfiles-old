@@ -56,4 +56,11 @@ colorscheme molokai
 syntax on
 let g:Powerline_symbols = 'fancy'
 
+map <silent> <Up> gk
+map <silent> k gk
+imap <silent> <Up> <C-o>gk
+map <silent> <Down> gj
+map <silent> j gj
+imap <silent> <Down> <C-o>gj
+
 call pathogen#infect()
