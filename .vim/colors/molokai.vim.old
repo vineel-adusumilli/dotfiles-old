@@ -133,7 +133,7 @@ if &t_Co > 255
       hi Normal                   ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
    else
-      hi Normal       ctermfg=252 ctermbg=none
+      hi Normal       ctermfg=252 ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
    endif
    hi Boolean         ctermfg=135
@@ -187,7 +187,7 @@ if &t_Co > 255
    hi Search          ctermfg=253 ctermbg=66
 
    " marks column
-   hi SignColumn      ctermfg=118 ctermbg=none
+   hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81  ctermbg=232
@@ -212,9 +212,9 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=59
-   hi CursorColumn                ctermbg=none
-   hi ColorColumn                 ctermbg=none
-   hi LineNr          ctermfg=250 ctermbg=none
+   hi CursorColumn                ctermbg=234
+   hi ColorColumn                 ctermbg=234
+   hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=59
    hi SpecialKey      ctermfg=59
 end
