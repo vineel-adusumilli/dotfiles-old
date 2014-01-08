@@ -54,7 +54,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 set t_Co=256
 colorscheme molokai
 syntax on
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 
 map <silent> <Up> gk
 map <silent> k gk

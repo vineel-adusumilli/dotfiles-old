@@ -35,3 +35,4 @@ export PATH="$PATH:$HOME/yagarto/yagarto-4.7.2/tools"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=/usr/local/bin:$PATH
