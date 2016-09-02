@@ -19,6 +19,3 @@
 [submodule ".vim/bundle/powerline"]
 	path = .vim/bundle/powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
-[submodule ".vim/bundle/vim-arduino"]
-	path = .vim/bundle/vim-arduino
-	url = git@github.com:tclem/vim-arduino.git

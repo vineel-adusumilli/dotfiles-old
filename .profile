@@ -22,10 +22,12 @@ alias weinre="node /usr/local/lib/node_modules/weinre/weinre"
 alias reload="source ~/.profile"
 alias closure="java -jar /Users/vineel/.closure/compiler.jar"
 alias nyan="telnet miku.acm.uiuc.edu"
+alias 6.006="cd ~/Dropbox\ \(MIT\)/6.006"
 
 # ssh shortcuts
 alias tfserver="ssh vadusumilli@server.tinyfactory.co"
-alias coulomb="ssh vineel@198.23.226.125"
+# alias coulomb="ssh vineel@162.243.104.60"
+alias coulomb="ssh vineel@coulomb.vineel.me"
 alias coolvm="ssh -p 2222 -l compilers localhost"
 alias athena="ssh vineel@athena.dialup.mit.edu"
 

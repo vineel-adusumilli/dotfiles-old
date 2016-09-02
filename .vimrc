@@ -51,6 +51,10 @@ map <Help> <Esc>
 map! <Help> <Esc>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
+au BufRead,BufNewFile *.pde set filetype=arduino
+au BufRead,BufNewFile *.ino set filetype=arduino
+let mapleader=","
+
 set t_Co=256
 colorscheme molokai
 syntax on
@@ -62,5 +66,12 @@ imap <silent> <Up> <C-o>gk
 map <silent> <Down> gj
 map <silent> j gj
 imap <silent> <Down> <C-o>gj
+
+"Shortcuts for window moving
+map <C-j> <C-w>j<C-w>_
+map <C-k> <C-w>k<C-w>_
+map <C-h> <C-w>h
+map <C-l> <C-w>l
+set wmh=0
 
 call pathogen#infect()
