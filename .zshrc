@@ -13,7 +13,7 @@ ZSH_THEME="agnoster"
 DISABLE_AUTO_TITLE=true
 
 # Don't share history between zsh sessions
-setopt no_share_history
+setopt nosharehistory
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
