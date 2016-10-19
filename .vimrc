@@ -15,6 +15,9 @@ set number
 set hidden
 set history=1000
 
+" Smart case while searching
+set smartcase
+
 set laststatus=2
 set statusline=%<%f\ %h%m%r\ %y%=%{v:register}\ %-14.(%l,%c%V%)\ %P
 set showcmd

@@ -12,6 +12,9 @@ ZSH_THEME="agnoster"
 # Disable renaming windows in tmux
 DISABLE_AUTO_TITLE=true
 
+# Don't share history between zsh sessions
+setopt no_share_history
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
