@@ -71,8 +71,8 @@ map <silent> j gj
 imap <silent> <Down> <C-o>gj
 
 "Shortcuts for window moving
-map <C-j> <C-w>j<C-w>_
-map <C-k> <C-w>k<C-w>_
+map <C-j> <C-w>j
+map <C-k> <C-w>k
 map <C-h> <C-w>h
 map <C-l> <C-w>l
 set wmh=0
