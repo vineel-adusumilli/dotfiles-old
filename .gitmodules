@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/coquille"]
 	path = .vim/bundle/coquille
 	url = git@github.com:the-lambda-church/coquille.git
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = git@github.com:rust-lang/rust.vim.git
+[submodule ".vim/bundle/vim-racer"]
+	path = .vim/bundle/vim-racer
+	url = git@github.com:racer-rust/vim-racer.git

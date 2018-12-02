@@ -91,3 +91,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.cargo/env
+export RUST_SRC_PATH=`rustc --print sysroot`/lib/rustlib/src/rust/src

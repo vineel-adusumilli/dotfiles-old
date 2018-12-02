@@ -77,4 +77,6 @@ map <C-h> <C-w>h
 map <C-l> <C-w>l
 set wmh=0
 
+let g:racer_cmd="/Users/vineel/.cargo/bin/racer"
+
 call pathogen#infect()
