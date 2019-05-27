@@ -81,4 +81,8 @@ map <C-n> :NERDTreeToggle<CR>
 
 let g:racer_cmd="/Users/vineel/.cargo/bin/racer"
 
+" fzf
+set rtp+=/usr/local/opt/fzf
+map <C-p> :FZF<CR>
+
 call pathogen#infect()
